@@ -19,5 +19,38 @@ typedef struct {
     char name[50];
     float gpa;
 } Student;
----
-#### Abebaw Degu, Ph.D. 
+
+```
+
+### Part B – Functions with Pointers
+Implement:
+```c
+void initStudent(Student* s, int id, const char* name, float gpa);
+void printStudent(const Student* s);
+void updateGPA(Student* s, float newGPA);
+```
+## Part C – Array of Students
+- In `main()`, create an array of 3 students.
+- Initialize them with `initStudent()`.
+- Print them with `printStudent()`.
+- Update the GPA of one student and print again.
+- Finally, use a **pointer** to traverse the array and print all students.
+## Example Output
+```c
+ID: 101, Name: Jhon, GPA: 3.75
+ID: 102, Name: Bob, GPA: 3.90
+ID: 103, Name: Carol, GPA: 2.95
+After update:
+ID: 101, Name: Jhon, GPA: 3.75
+ID: 102, Name: Bob, GPA: 4.00
+ID: 103, Name: Carol, GPA: 2.95
+Traversing with pointer:
+ID: 101, Name: Jhon, GPA: 3.75
+ID: 102, Name: Bob, GPA: 4.00
+ID: 103, Name: Carol, GPA: 2.95
+```
+## Autograding
+Your code will be automatically tested when you push
+
+© 2025 Abebaw Degu, Ph.D.
+
