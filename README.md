@@ -20,4 +20,4 @@ typedef struct {
     float gpa;
 } Student;
 ---
-@ Abebaw Degu, Ph.D. 
+Abebaw Degu, Ph.D. 
