@@ -1,4 +1,4 @@
-# Lab Exercise – Structures & Pointers Recap in C
+# Lab Exercise 2 – Structures & Pointers Recap in C
 
 ## Objectives
 By completing this lab, you will:
