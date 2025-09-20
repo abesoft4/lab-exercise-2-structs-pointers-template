@@ -35,6 +35,34 @@ void updateGPA(Student* s, float newGPA);
 - Print them with `printStudent()`.
 - Update the GPA of one student and print again.
 - Finally, use a **pointer** to traverse the array and print all students.
+## `main.c` (starter code)
+
+```c
+#include <stdio.h>
+#include <string.h>
+
+// TODO: Define Student struct
+
+// TODO: Implement initStudent()
+
+// TODO: Implement printStudent()
+
+// TODO: Implement updateGPA()
+
+int main() {
+    // TODO: Create array of 3 Students
+
+    // TODO: Initialize them with initStudent()
+
+    // TODO: Print them
+
+    // TODO: Update GPA of one student and print again
+
+    // TODO: Use pointer to traverse array and print all students
+
+    return 0;
+}
+```
 ## Example Output
 ```c
 ID: 101, Name: Jhon, GPA: 3.75
@@ -51,6 +79,9 @@ ID: 103, Name: Carol, GPA: 2.95
 ```
 ## Autograding
 Your code will be automatically tested when you push
+
+
+---
 
 © 2025 Abebaw Degu, Ph.D.
 
